@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Website lớp 12B"
+    >
+
+    <title>12B | Thanh Xuân</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         BACKGROUND
+    ================================= -->
+
+    <div class="background">
+
+        <div class="gradient gradient-1"></div>
+        <div class="gradient gradient-2"></div>
+        <div class="gradient gradient-3"></div>
+
+        <div class="stars"></div>
+
+    </div>
+
+
+    <!-- Ánh sáng theo chuột -->
+
+    <div
+        class="mouse-light"
+        id="mouseLight"
+    ></div>
+
+
+    <!-- Hạt sáng -->
+
+    <div id="particles"></div>
+
+
+    <!-- ================================
+         HEADER
+    ================================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                12B
+            </div>
+
+            <div class="logo-text">
+
+                <strong>
+                    CLASS 12B
+                </strong>
+
+                <span>
+                    Thanh xuân rực rỡ
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+
+        <nav
+            class="navigation"
+            id="navigation"
+        >
+
+            <button
+                class="nav-item active"
+                data-section="home"
+            >
+                <span>⌂</span>
+                <label>Trang chủ</label>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="schedule"
+            >
+                <span>▦</span>
+                <label>TKB</label>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="news"
+            >
+                <span>🔔</span>
+                <label>Thông báo</label>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="events"
+            >
+                <span>✦</span>
+                <label>Sự kiện</label>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="gallery"
+            >
+                <span>▧</span>
+                <label>Thư viện</label>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="achievements"
+            >
+                <span>🏆</span>
+                <label>Thành tích</label>
+            </button>
+
+        </nav>
+
+
+        <div class="header-actions">
+
+            <button
+                class="icon-button"
+                id="themeButton"
+                title="Bật/tắt hiệu ứng"
+            >
+                ◐
+            </button>
+
+            <button
+                class="icon-button menu-button"
+                id="menuButton"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================================
+         MAIN
+    ================================= -->
+
+    <main>
+
+
+        <!-- ================================
+             TRANG CHỦ
+        ================================= -->
+
+        <section
+            class="page active"
+            id="home"
+        >
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <div class="badge">
+
+                        <span></span>
+
+                        WEBSITE CHÍNH THỨC
+
+                        <b>12B</b>
+
+                    </div>
+
+
+                    <h1>
+                        12B
+
+                        <small>
+                            Thanh Xuân
+                        </small>
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Nơi lưu giữ những khoảnh khắc,
+                        những kỷ niệm và hành trình trưởng thành
+                        của tập thể lớp 12B.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <button
+                            class="primary-button"
+                            data-go="schedule"
+                        >
+                            Xem thời khóa biểu
+                            <span>→</span>
+                        </button>
+
+
+                        <button
+                            class="glass-button"
+                            data-go="gallery"
+                        >
+                            Khám phá lớp
+                            <span>✦</span>
+                        </button>
+
+                    </div>
+
+
+                    <div class="stats">
+
+                        <div class="stat">
+                            <strong>12B</strong>
+                            <span>Lớp học</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>2026 ~ 2027</strong>
+                            <span>Năm học</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <span>Kỷ niệm</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 12B -->
+
+                <div class="hero-visual">
+
+                    <div class="orbit orbit-1"></div>
+
+                    <div class="orbit orbit-2"></div>
+
+
+                    <div class="glass-class-card">
+
+                        <div class="card-top">
+
+                            <span>
+                                CLASS
+                            </span>
+
+                            <span>
+                                2026
+                            </span>
+
+                        </div>
+
+
+                        <div class="big-number">
+
+                            12<span>B</span>
+
+                        </div>
+
+
+                        <div class="card-bottom">
+
+                            <span>
+                                MEMORIES
+                            </span>
+
+                            <span>
+                                12B
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- KHÁM PHÁ -->
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span>
+                        EXPLORE
+                    </span>
+
+                    <h2>
+                        Khám phá lớp 12B
+                    </h2>
+
+                </div>
+
+                <p>
+                    Nhấn vào từng mục để khám phá.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <button
+                    class="feature-card"
+                    data-go="schedule"
+                >
+
+                    <div class="feature-icon">
+                        ▦
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Thời khóa biểu
+                        </h3>
+
+                        <p>
+                            Xem lịch học sáng và chiều.
+                        </p>
+
+                    </div>
+
+                    <span>→</span>
+
+                </button>
+
+
+                <button
+                    class="feature-card"
+                    data-go="news"
+                >
+
+                    <div class="feature-icon">
+                        🔔
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Thông báo
+                        </h3>
+
+                        <p>
+                            Những thông tin mới nhất.
+                        </p>
+
+                    </div>
+
+                    <span>→</span>
+
+                </button>
+
+
+                <button
+                    class="feature-card"
+                    data-go="events"
+                >
+
+                    <div class="feature-icon">
+                        ✦
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Sự kiện
+                        </h3>
+
+                        <p>
+                            Hoạt động của tập thể.
+                        </p>
+
+                    </div>
+
+                    <span>→</span>
+
+                </button>
+
+
+                <button
+                    class="feature-card"
+                    data-go="gallery"
+                >
+
+                    <div class="feature-icon">
+                        ▧
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Thư viện
+                        </h3>
+
+                        <p>
+                            Những khoảnh khắc của 12B.
+                        </p>
+
+                    </div>
+
+                    <span>→</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================================
+             THỜI KHÓA BIỂU
+        ================================= -->
+
+        <section
+            class="page"
+            id="schedule"
+        >
+
+            <div class="page-title">
+
+                <span>
+                    SCHEDULE
+                </span>
+
+                <h2>
+                    Thời khóa biểu
+                </h2>
+
+                <p>
+                    Thời khóa biểu lớp 12B
+                </p>
+
+            </div>
+
+
+            <!-- TAB SÁNG / CHIỀU -->
+
+            <div class="schedule-tabs">
+
+                <button
+                    class="schedule-tab active"
+                    data-tab="morning"
+                >
+                    ☀ Buổi sáng
+                </button>
+
+                <button
+                    class="schedule-tab"
+                    data-tab="afternoon"
+                >
+                    ☾ Buổi chiều
+                </button>
+
+            </div>
+
+
+            <!-- ==========================
+                 BẢNG BUỔI SÁNG
+            =========================== -->
+
+            <div
+                class="schedule-panel active"
+                id="morning"
+            >
+
+                <div class="table-container">
+
+                    <table class="timetable">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Tiết
+                                </th>
+
+                                <th>
+                                    Thứ 2
+                                </th>
+
+                                <th>
+                                    Thứ 3
+                                </th>
+
+                                <th>
+                                    Thứ 4
+                                </th>
+
+                                <th>
+                                    Thứ 5
+                                </th>
+
+                                <th>
+                                    Thứ 6
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 1
+                                    </strong>
+
+                                    <small>
+                                        07:00
+                                    </small>
+
+                                </td>
+
+
+                                <td>
+                                    Toán
+                                </td>
+
+
+                                <td>
+                                    Hóa học
+                                </td>
+
+
+                                <td>
+                                    Ngữ văn
+                                </td>
+
+
+                                <td>
+                                    Vật lý
+                                </td>
+
+
+                                <td>
+                                    Toán
+                                </td>
+
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 2
+                                    </strong>
+
+                                </td>
+
+
+                                <td>
+                                    Vật lý
+                                </td>
+
+
+                                <td>
+                                    Toán
+                                </td>
+
+
+                                <td>
+                                    Toán
+                                </td>
+
+
+                                <td>
+                                    Hóa học
+                                </td>
+
+
+                                <td>
+                                    Ngữ văn
+                                </td>
+
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 3
+                                    </strong>
+
+                                    <small>
+                                        08:40
+                                    </small>
+
+                                </td>
+
+                                <td>
+                                    Hóa
+                                </td>
+
+                                <td>
+                                    Văn
+                                </td>
+
+                                <td>
+                                    Văn
+                                </td>
+
+                                <td>
+                                    Hóa
+                                </td>
+
+                                <td> 
+                                    Hóa
+                                </td>
+
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 4
+                                    </strong>
+
+                                    <small>
+                                        09:35
+                                    </small>
+
+                                </td>
+
+                                <td> 
+                                    HÓA
+                                </td>
+
+                                <td>
+                                    Toán
+                                </td>
+
+                                <td>
+                                    Hóa
+                                </td>
+
+                                <td>
+                                    Thể dục
+                                </td>
+
+                                <td>
+                                    VĂN
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 5
+                                    </strong>
+
+                                    <small>
+                                        10:05
+                                    </small>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==========================
+                 BẢNG BUỔI CHIỀU
+            =========================== -->
+
+            <div
+                class="schedule-panel"
+                id="afternoon"
+            >
+
+                <div class="table-container">
+
+                    <table class="timetable">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Tiết
+                                </th>
+
+                                <th>
+                                    Thứ 2
+                                </th>
+
+                                <th>
+                                    Thứ 3
+                                </th>
+
+                                <th>
+                                    Thứ 4
+                                </th>
+
+                                <th>
+                                    Thứ 5
+                                </th>
+
+                                <th>
+                                    Thứ 6
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 1
+                                    </strong>
+
+                                    <small>
+                                        13:30
+                                    </small>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+                                <td>
+
+                                </td>
+
+
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 2
+                                    </strong>
+
+                                    <small>
+                                        14:20
+                                    </small>
+
+                                </td>
+
+
+                                <td>
+
+                                </td>
+
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+
+                                <td>
+
+                                </td>
+
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+
+
+                                <td>
+ 
+                                </td>
+
+                            </tr>
+
+
+
+                            <tr>
+
+                                <td class="period">
+
+                                    <strong>
+                                        Tiết 3
+                                    </strong>
+
+                                    <small>
+                                        15:10
+                                    </small>
+
+                                </td>
+
+
+                                <td>
+                                    
+                                </td>
+
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+
+                                <td>
+
+                                </td>
+
+
+                                <td>
+                                    CẬP NHẬT...
+                                </td>
+
+
+                                <td>
+                                    
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================================
+             THÔNG BÁO
+        ================================= -->
+
+        <section
+            class="page"
+            id="news"
+        >
+
+            <div class="page-title">
+
+                <span>
+                    NEWS
+                </span>
+
+                <h2>
+                    Thông báo
+                </h2>
+
+                <p>
+                    Những thông tin mới nhất.
+                </p>
+
+            </div>
+
+
+            <div class="news-list">
+
+
+                <article class="news-card">
+
+                    <div class="news-date">
+
+                        <strong>
+                            07
+                        </strong>
+
+                        <span>
+                            SEP
+                        </span>
+
+                    </div>
+
+
+                    <div class="news-content">
+
+                        <label>
+                            QUAN TRỌNG
+                        </label>
+
+                        <h3>
+                            Cập nhật thời khóa biểu
+                        </h3>
+
+                        <p>
+                            Kiểm tra lại lịch học của tuần.
+                        </p>
+
+                    </div>
+
+
+                    <button
+                        class="read-button"
+                        data-title="Cập nhật thời khóa biểu"
+                        data-text="Đây là nội dung chi tiết của thông báo."
+                    >
+                        Xem →
+                    </button>
+
+                </article>
+
+
+
+                <article class="news-card">
+
+                    <div class="news-date">
+
+                        <strong>
+                            10
+                        </strong>
+
+                        <span>
+                            SEP
+                        </span>
+
+                    </div>
+
+
+                    <div class="news-content">
+
+                        <label class="blue">
+                            HOẠT ĐỘNG
+                        </label>
+
+                        <h3>
+                            Sinh hoạt lớp
+                        </h3>
+
+                        <p>
+                            Chuẩn bị cho buổi sinh hoạt.
+                        </p>
+
+                    </div>
+
+
+                    <button
+                        class="read-button"
+                        data-title="Sinh hoạt lớp"
+                        data-text="Bạn có thể ghi thời gian, địa điểm và nội dung sinh hoạt ở đây."
+                    >
+                        Xem →
+                    </button>
+
+                </article>
+
+
+
+                <article class="news-card">
+
+                    <div class="news-date">
+
+                        <strong>
+                            15
+                        </strong>
+
+                        <span>
+                            SEP
+                        </span>
+
+                    </div>
+
+
+                    <div class="news-content">
+
+                        <label class="green">
+                            THI CỬ
+                        </label>
+
+                        <h3>
+                            Lịch kiểm tra
+                        </h3>
+
+                        <p>
+                            Những bài kiểm tra sắp tới.
+                        </p>
+
+                    </div>
+
+
+                    <button>
+                        class="read-button"
+                        data-title="Lịch kiểm tra"
+                        data-text="Chưa có lịch"
+                        Xem →
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================================
+             SỰ KIỆN
+        ================================= -->
+
+        <section
+            class="page"
+            id="events"
+        >
+
+            <div class="page-title">
+
+                <span>
+                    EVENTS
+                </span>
+
+                <h2>
+                    Sự kiện
+                </h2>
+
+                <p>
+                    Những hoạt động đáng nhớ.
+                </p>
+
+            </div>
+
+
+            <div class="event-grid">
+
+
+                <article class="event-card">
+
+                    <div class="event-number">
+                        01
+                    </div>
+
+                    <div class="event-content">
+
+                        <span>
+                            THÁNG 9
+                        </span>
+
+                        <h3>
+                            Khởi động năm học
+                        </h3>
+
+                        <p>
+                            Cùng nhau bắt đầu
+                            hành trình mới.
+                        </p>
+
+                    </div>
+
+                    <div class="event-icon">
+                        🚀
+                    </div>
+
+                </article>
+
+
+
+                <article class="event-card">
+
+                    <div class="event-number">
+                        02
+                    </div>
+
+                    <div class="event-content">
+
+                        <span>
+                            THÁNG 10
+                        </span>
+
+                        <h3>
+                            Hoạt động tập thể
+                        </h3>
+
+                        <p>
+                            Thêm những kỷ niệm đẹp.
+                        </p>
+
+                    </div>
+
+                    <div class="event-icon">
+                        🎉
+                    </div>
+
+                </article>
+
+
+
+                <article class="event-card">
+
+                    <div class="event-number">
+                        03
+                    </div>
+
+                    <div class="event-content">
+
+                        <span>
+                            THÁNG 11
+                        </span>
+
+                        <h3>
+                            Tri ân thầy cô
+                        </h3>
+
+                        <p>
+                            Gửi những lời chúc ý nghĩa.
+                        </p>
+
+                    </div>
+
+                    <div class="event-icon">
+                        💐
+                    </div>
+
+                </article>
+
+
+
+                <article class="event-card">
+
+                    <div class="event-number">
+                        04
+                    </div>
+
+                    <div class="event-content">
+
+                        <span>
+                            THÁNG 5
+                        </span>
+
+                        <h3>
+                            Những ngày cuối
+                        </h3>
+
+                        <p>
+                            Khép lại hành trình tuổi học trò.
+                        </p>
+
+                    </div>
+
+                    <div class="event-icon">
+                        🎓
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================================
+             THƯ VIỆN
+        ================================= -->
+
+        <section
+            class="page"
+            id="gallery"
+        >
+
+            <div class="page-title">
+
+                <span>
+                    GALLERY
+                </span>
+
+                <h2>
+                    Thư viện ảnh
+                </h2>
+
+                <p>
+                    Những khoảnh khắc của 12B.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+
+                <button
+                    class="photo photo-1"
+                    data-title="Thanh xuân 12B"
+                    data-text="Nơi bạn có thể đặt ảnh tập thể của lớp."
+                >
+
+                    <div>
+                        📸
+                    </div>
+
+                    <strong>
+                        Thanh xuân
+                    </strong>
+
+                </button>
+
+
+
+                <button
+                    class="photo photo-2"
+                    data-title="Ngày đến trường"
+                    data-text="Đặt ảnh trường hoặc ảnh lớp vào đây."
+                >
+
+                    <div>
+                        🏫
+                    </div>
+
+                    <strong>
+                        Ngày đến trường
+                    </strong>
+
+                </button>
+
+
+
+                <button
+                    class="photo photo-3"
+                    data-title="Hoạt động lớp"
+                    data-text="Khu vực dành cho những bức ảnh hoạt động."
+                >
+
+                    <div>
+                        🎉
+                    </div>
+
+                    <strong>
+                        Hoạt động
+                    </strong>
+
+                </button>
+
+
+
+                <button
+                    class="photo photo-4"
+                    data-title="Kỷ niệm"
+                    data-text="Lưu giữ những khoảnh khắc đáng nhớ của 12B."
+                >
+
+                    <div>
+                        🎓
+                    </div>
+
+                    <strong>
+                        Kỷ niệm
+                    </strong>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================================
+             THÀNH TÍCH
+        ================================= -->
+
+        <section
+            class="page"
+            id="achievements"
+        >
+
+            <div class="page-title">
+
+                <span>
+                    ACHIEVEMENTS
+                </span>
+
+                <h2>
+                    Thành tích
+                </h2>
+
+                <p>
+                    Những dấu ấn của tập thể 12B.
+                </p>
+
+            </div>
+
+
+            <div class="achievement-grid">
+
+
+                <div class="achievement">
+
+                    <div>
+                        🥇
+                    </div>
+
+                    <strong>
+                        Giải Nhất
+                    </strong>
+
+                    <span>
+                        2 Năm Vô Địch Liên Tiếp 
+                    </span>
+
+                </div>
+
+
+
+                <div class="achievement">
+
+                    <div>
+                        🥈
+                    </div>
+
+                    <strong>
+                        Giải Nhì
+                    </strong>
+
+                    <span>
+                        Văn nghệ
+                    </span>
+
+                </div>
+
+
+
+                <div class="achievement">
+
+                    <div>
+                        🏆
+                    </div>
+
+                    <strong>
+                        Tập thể xuất sắc
+                    </strong>
+
+                    <span>
+                        Năm học
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="quote">
+
+                <div>
+                    “
+                </div>
+
+                <p>
+                    Một người có thể đi rất nhanh,
+                    nhưng một tập thể có thể đi rất xa.
+                </p>
+
+                <span>
+                    — 12B
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================================
+         MODAL
+    ================================= -->
+
+    <div
+        class="modal"
+        id="modal"
+    >
+
+        <div class="modal-box">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+            >
+                ×
+            </button>
+
+
+            <div class="modal-icon">
+                ✦
+            </div>
+
+
+            <h2 id="modalTitle">
+                Tiêu đề
+            </h2>
+
+
+            <p id="modalText">
+                Nội dung
+            </p>
+
+
+            <button
+                class="primary-button modal-ok"
+                id="modalOK"
+            >
+                Đóng
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer>
+
+        <span>
+            © 2026~2027 CLASS 12B
+        </span>
+
+        <span>
+            Thanh xuân không quay lại ❤️
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
